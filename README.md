@@ -9,8 +9,6 @@ The system tracks consecutive task completions (streaks) across different timefr
 
 
 ### 2. Flinks API Integration for Task Verification 
-
-**English:**
 Financial tasks are automatically verified through Flinks API integration, which connects to users' bank accounts to confirm actions like savings deposits or budget adherence. This provides objective verification rather than relying solely on self-reporting, enhancing the credibility of achievements.
 
 
@@ -41,7 +39,7 @@ The system implements robust error handling for API failures, network issues, an
 
 ![Workflow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png)
 
-[Frontend Data Flow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png)
+![Frontend Data Flow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png)
 
 
 ### 1. First Commit - Foundation Building
