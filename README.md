@@ -1,6 +1,7 @@
 ##  Capstone project ：ElektraFi Gamification Features and Development Summary
 
 ## Main Features 
+![Workflow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png)
 
 ### 1. Complete Streak Tracking System 
 
@@ -37,7 +38,7 @@ The system implements robust error handling for API failures, network issues, an
 
 ## Development Summary (Frontend)
 
-![Workflow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png)
+
 
 ![Frontend Data Flow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/frontend%20data%20flow.png)
 
