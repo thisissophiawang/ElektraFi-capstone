@@ -61,7 +61,7 @@ The development followed a phased implementation strategy, with each commit buil
 
 
 ## Development Summary (Backend)
-## Frontend-Backend Data Flow
+![Backend Data Flow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/backend%20data%20flow.png)
 
 The complete data flow for task completion:
 
