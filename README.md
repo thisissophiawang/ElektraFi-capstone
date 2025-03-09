@@ -39,7 +39,7 @@ The system implements robust error handling for API failures, network issues, an
 
 ![Workflow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png)
 
-![Frontend Data Flow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png)
+![Frontend Data Flow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/frontend%20data%20flow.png)
 
 
 ### 1. First Commit - Foundation Building
