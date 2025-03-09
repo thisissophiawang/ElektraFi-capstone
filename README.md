@@ -59,3 +59,17 @@ The final commit completed the system with advanced features including the strea
 
 The development followed a phased implementation strategy, with each commit building upon the previous one and progressively enriching functionality and user experience. The entire process demonstrates the evolution from concept to a fully functional gamification system that effectively promotes financial wellness through engaging daily interactions.
 
+
+## Development Summary (Backend)
+## Frontend-Backend Data Flow
+
+The complete data flow for task completion:
+
+1. User completes a task in the frontend → Frontend triggers `CompleteTask` GraphQL mutation (`src/graphql/query/tasks.mutations.ts`).
+2. Backend `TaskResolver` (`src/modules/tasks/tasks.resolver.ts`) receives the request → Calls `TaskService.completeTask()`.
+3. `TaskService` (`src/modules/tasks/tasks.service.ts`) calls `VerificationService` for validation → Updates task status and streak upon verification.
+4. `TaskService` calls `RewardService` (`src/modules/rewards/rewards.service.ts`) for reward calculations → Updates user points and badges.
+5. Backend returns updated task data → Frontend Apollo Client updates cache → UI reflects the new state.
+6. If API failure occurs, alternative verification (`src/modules/verification/fallback/alternative-verification.ts`) is triggered → Records as self-reported verification → Still returns success but marks the verification type.
+
+
