@@ -1,8 +1,9 @@
-##  Capstone project ：ElektraFi Gamification Features and Development Summary
+##  Capstone project - ElektraFi Gamification Features and Development Summary
 
-## Main Features 
+ 
 ![Workflow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png)
 
+## Main Features
 ### 1. Complete Streak Tracking System 
 
 
