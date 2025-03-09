@@ -36,9 +36,13 @@ The interface provides immediate visual feedback for task completion, streak mil
 The system implements robust error handling for API failures, network issues, and data synchronization problems. Users receive clear, non-technical explanations when problems occur, along with specific recovery actions. The application maintains local state during connectivity issues and provides synchronization when connections are restored, ensuring no progress is lost.
 
 
+
 ## Development Summary (Frontend)
 
 ![Workflow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png)
+
+[Frontend Data Flow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png)
+
 
 ### 1. First Commit - Foundation Building
 
