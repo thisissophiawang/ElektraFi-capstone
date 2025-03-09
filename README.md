@@ -1,5 +1,4 @@
-##  Capstone project ：
-## ElektraFi Gamification Features and Development Summary
+##  Capstone project ：ElektraFi Gamification Features and Development Summary
 
 ## Main Features 
 
