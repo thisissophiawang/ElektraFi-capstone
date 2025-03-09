@@ -38,6 +38,8 @@ The system implements robust error handling for API failures, network issues, an
 
 ## Development Summary （frontend)
 
+Workflow (https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/optimized-elektraFi-data-flow.svg)
+
 ### 1. First Commit - Foundation Building 
 
 
