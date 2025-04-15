@@ -3,14 +3,15 @@
 This project is part of our capstone research at Northeastern University Vancouver, focused on redesigning financial wellness engagement through Self-Determination Theory (SDT) and gamification principles. ElektraFi is a web-based platform aimed at increasing user motivation to build consistent financial habits, such as saving, budgeting, and debt reduction.
 
 **Table of Contents:**
-- [Team Members](##team-members)
+- [Team Members](#team-members)
 - [Meet the Team & Explore Our Project](#meet-the-team--explore-our-project)
 - [Tech Stack Overview](#tech-stack-overview)
 - [Main Features](#main-features)
 - [Frontend Development](#frontend-development)
 - [Backend Development](#backend-development)
-- [Setup Instructions](#Setup-Instructions)
-- [Demo Instructions](#Demo-Instructions)
+- [Setup Instructions](#setup-instructions)
+- [Demo Instructions](#demo-instructions)
+
 
 ---
 
