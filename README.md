@@ -77,6 +77,8 @@ This project is part of our capstone research at Northeastern University Vancouv
 - Retry and fallback mechanisms
 
 ![Workflow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png)
+<img src="https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png" alt="Workflow" width="60%">
+
 
 ---
 
