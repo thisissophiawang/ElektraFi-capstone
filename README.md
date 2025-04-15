@@ -84,7 +84,9 @@ This project is part of our capstone research at Northeastern University Vancouv
 
 ## Frontend Development
 
-![Frontend Data Flow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/frontend%20data%20flow.png)
+
+<img src="https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/frontend%20data%20flow.png"  alt="Frontend Data Flow" width="60%">
+
 
 ### 1. First Commit - Foundation Building
 - React + TypeScript architecture
