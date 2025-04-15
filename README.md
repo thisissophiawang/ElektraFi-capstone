@@ -5,9 +5,9 @@ This project is part of our capstone research at Northeastern University Vancouv
 **Table of Contents:**
 - [Meet the Team \& Explore Our Project](#meet-the-team--explore-our-project)
 - [Concepts and Resources](#Team_Members)
-- [Understanding the Project Structure](#understanding-the-project-structure)
-- [Getting Started](#getting-started)
-- [What next?](#what-next)
+- [Main Features](#Main_Features)
+- [Frontend Development Summary](#Frontend_Development) 
+- [Backend Development Summary](#Backend_Development) 
 - [Notes](#notes)
 
 # Team Members
@@ -81,7 +81,7 @@ This project is part of our capstone research at Northeastern University Vancouv
 
 ![Workflow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png)
 
-## Development Summary (Frontend)
+# Frontend Development 
 
 ![Frontend Data Flow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/frontend%20data%20flow.png)
 
@@ -127,7 +127,7 @@ This project is part of our capstone research at Northeastern University Vancouv
 - Efficient state management
 
 
-## Development Summary (Backend)
+# Backend Development 
 ![Backend Data Flow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/backend%20data%20flow.png)
 
 # Task System Data Flow Overview
