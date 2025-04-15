@@ -18,14 +18,13 @@ This project is part of our capstone research at Northeastern University Vancouv
 
 # Meet the Team & Explore Our Project
 
-- [GreenNudge Project: Official Trailer](https://youtu.be/TixBm-K1ZbA)
+- [GreenNudge Project: Official Trailer](https://youtu.be/e54t63F5Mwk)
 - [10 Minutes Detailed Video](https://youtu.be/e54t63F5Mwk)
 - [Our Research Paper](https://www.overleaf.com/read/wyvwgxnnvqcr#c6339b)
 - [Get the PDF of Our Poster](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/Poster.pdf)
  ![Our Poster](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/poster%20.png)
 
  
-
 
 ## Main Features
 ## 1. Weekly Progress Tracking
