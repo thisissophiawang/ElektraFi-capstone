@@ -112,7 +112,8 @@ This project is part of our capstone research at Northeastern University Vancouv
 
 ## Backend Development
 
-![Backend Data Flow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/backend%20data%20flow.png)
+<img src="https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/backend%20data%20flow.png"  alt="Backend Data Flow" width="60%">
+
 
 ### Task System Data Flow
 
