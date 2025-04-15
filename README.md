@@ -9,8 +9,8 @@ This project is part of our capstone research at Northeastern University Vancouv
 - [Main Features](#main-features)
 - [Frontend Development](#frontend-development)
 - [Backend Development](#backend-development)
-- [Setup Instructions](#setup-instructions)
-- [Demo Instructions](#demo-instructions)
+- [Setup Instructions](#Setup-Instructions)
+- [Demo Instructions](#Demo-Instructions)
 
 ---
 
