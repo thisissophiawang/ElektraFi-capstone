@@ -88,31 +88,33 @@ yarn dev
 
 ---
 
-## Overview of project structure
+## 🧱 Overview of Project Structure
+
 The ElektraFi project follows a modular full-stack architecture with a clearly separated frontend and backend. It is built using modern web development tools and frameworks such as React, GraphQL, and Node.js.
 
-
+```
 Sp25_Elektrafi/
-├── frontend/                      # React + Vite frontend
-│   ├── src/components/               # Reusable UI components (TaskCard, Badge, StreakBar)
-│   ├── src/pages/                    # Page-level components (TaskPage, Dashboard)
-│   ├── src/context/                  # Global state (UserContext, TaskContext)
-│   ├── src/graphql/                  # GraphQL queries & mutations (tasks, users, rewards)
-│   └── src/assets/                   # Icons, badges, and UI resources
+├── frontend/                     # React + Vite frontend
+│   ├── src/components/          # Reusable UI components (TaskCard, Badge, StreakBar)
+│   ├── src/pages/               # Page-level views (TaskPage, Dashboard)
+│   ├── src/context/             # Global state (UserContext, TaskContext)
+│   ├── src/graphql/             # GraphQL queries & mutations (tasks, users, rewards)
+│   └── src/assets/              # Icons, badge illustrations, and UI resources
 │
-├── nest-backend/                      # Node.js backend with GraphQL
+├── nest-backend/                # Node.js backend with GraphQL
 │   ├── modules/
-│   │   ├── tasks/                # Task completion logic, streak tracking
-│   │   ├── rewards/             # Points and badge system logic
-│   │   ├── verification/        # Flinks API + fallback verification
-│   ├── graphql/                 # Schema definitions and resolvers
-│   └── utils/                   # Shared utilities and error handling
+│   │   ├── tasks/               # Task completion logic, streak tracking
+│   │   ├── rewards/            # Points and badge system logic
+│   │   ├── verification/       # Flinks API + fallback verification
+│   ├── graphql/                # Schema definitions and resolvers
+│   └── utils/                  # Shared utilities and error handling
 │
-├── ops/                          # Environment and deployment configs
-│
-├── public/                       # Static assets
-│
-└── README.md                     # Project documentation
+├── ops/                         # Environment and deployment configs
+├── public/                      # Static assets (favicon, logos)
+└── README.md                    # Project documentation
+```
+
+
 
 ---
 
