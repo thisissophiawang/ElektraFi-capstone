@@ -7,7 +7,8 @@ This project is part of our capstone research at Northeastern University Vancouv
 - [Tech Stack Overview](#Tech-Stack-Overview)
 - [Main Features](#Main-Features)
 - [Frontend Development Summary](#Frontend-Development) 
-- [Backend Development Summary](#Backend-Development) 
+- [Backend Development Summary](#Backend-Development)
+- [Setup Instructions]
 - [Notes](#notes)
 
 # Team Members
@@ -193,3 +194,57 @@ This project is part of our capstone research at Northeastern University Vancouv
 - Progress updates displayed
 - New achievements highlighted
 - Next steps suggested
+
+## 📦 Setup Instructions
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js 22](https://nodejs.org/)
+- [Yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/thisissophiawang/Sp25_Elektrafi.git
+   cd Sp25_Elektrafi
+
+ 2. Install dependencies:
+   ```sh
+   yarn install
+
+3. Set up environment variables:
+For macOS/Linux:
+   ```sh
+  cp ops/dev.env .env
+
+
+For Windows (Command Prompt):
+   ```sh
+copy ops/dev.env .env
+
+
+## 📦 Running Project
+1. Start the Backend Server
+  ```sh
+yarn develop
+
+2. Start the Frontend
+Open a second terminal and run:
+  ```sh
+yarn dev
+
+This starts the React app at http://localhost:3000.
+
+Navigate to the local link to log in using a test account and explore ElektraFi’s gamified features.
+
+
+
+
+
+
+
+
+
