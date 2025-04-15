@@ -4,13 +4,13 @@ This project is part of our capstone research at Northeastern University Vancouv
 
 **Table of Contents:**
 - [Meet the Team \& Explore Our Project](#meet-the-team--explore-our-project)
-- [Concepts and Resources](# 👥 Team Members)
+- [Concepts and Resources](#Team_Members)
 - [Understanding the Project Structure](#understanding-the-project-structure)
 - [Getting Started](#getting-started)
 - [What next?](#what-next)
 - [Notes](#notes)
 
-# 👥 Team Members
+# Team Members
 - Xinyi (Sophia) Wang  
 - Yijia Cao  
 - Haoyi Gao
