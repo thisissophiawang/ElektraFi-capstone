@@ -138,7 +138,7 @@ This project is part of our capstone research at Northeastern University Vancouv
 - [Node.js 22](https://nodejs.org/)
 - [Yarn](https://yarnpkg.com/)
 
-### Installation
+### Installation & Running Project
 
 ```bash
 # Clone the repository
@@ -158,21 +158,16 @@ copy ops/dev.env .env
 # For Windows (PowerShell):
 Copy-Item ops/dev.env -Destination .env
 
-
-
-## 📦 Running Project
-1. Start the Backend Server
-  ```sh
+# Start the Backend Server
 yarn develop
 
-2. Start the Frontend
-Open a second terminal and run:
-  ```sh
+# Start the Frontend (open a second terminal)
 yarn dev
 
-This starts the React app at http://localhost:3000.
+# The React app will run at: http://localhost:3000
+# Log in with the test account and explore the gamified features
 
-Navigate to the local link to log in using a test account and explore ElektraFi’s gamified features.
+
 
 ## Demo Instructions
 1.Start both servers using yarn develop and yarn dev
