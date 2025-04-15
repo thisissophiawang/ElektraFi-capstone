@@ -10,7 +10,6 @@ This project is part of our capstone research at Northeastern University Vancouv
 - [Frontend Development](#frontend-development)
 - [Backend Development](#backend-development)
 - [Setup Instructions](#setup-instructions)
-- [Running Project](#running-project)
 - [Demo Instructions](#demo-instructions)
 
 ---
