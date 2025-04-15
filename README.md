@@ -15,7 +15,7 @@ This project is part of our capstone research at Northeastern University Vancouv
 
 ---
 
-## 👥 Team Members
+## Team Members
 - Xinyi (Sophia) Wang
 - Haoyi Gao
 - Yijia Cao  
@@ -23,7 +23,7 @@ This project is part of our capstone research at Northeastern University Vancouv
 
 ---
 
-## 📽️ Meet the Team & Explore Our Project
+## Meet the Team & Explore Our Project
 
 - [ElektraFi Project: Official Trailer](https://youtu.be/e54t63F5Mwk)  
 - [10-Minute Detailed Video](https://youtu.be/e54t63F5Mwk)  
@@ -34,14 +34,14 @@ This project is part of our capstone research at Northeastern University Vancouv
 
 ---
 
-## ⚙️ Tech Stack Overview
+## Tech Stack Overview
 - **Frontend**: React (Vite), TypeScript, Tailwind CSS  
 - **Backend**: Node.js 22, GraphQL, MongoDB  
 - **Dev Tools**: Yarn, Apollo Client, GitHub Actions
 
 ---
 
-## 🧩 Main Features
+## Main Features
 
 ### 1. Weekly Progress Tracking
 - Visual display of weekly task completion
@@ -79,7 +79,7 @@ This project is part of our capstone research at Northeastern University Vancouv
 
 ---
 
-## 💻 Frontend Development
+## Frontend Development
 
 ![Frontend Data Flow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/frontend%20data%20flow.png)
 
@@ -105,7 +105,7 @@ This project is part of our capstone research at Northeastern University Vancouv
 
 ---
 
-## 🔧 Backend Development
+## Backend Development
 
 ![Backend Data Flow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/backend%20data%20flow.png)
 
@@ -132,7 +132,7 @@ This project is part of our capstone research at Northeastern University Vancouv
 
 ---
 
-## 📦 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
@@ -171,7 +171,7 @@ yarn dev
 
 ---
 
-## 🎬 Demo Instructions
+## Demo Instructions
 
 1. Start both servers using `yarn develop` and `yarn dev`  
 2. Open [http://localhost:3000](http://localhost:3000)  
