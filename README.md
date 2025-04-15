@@ -26,7 +26,7 @@ This project is part of our capstone research at Northeastern University Vancouv
 
  
 
-## Main Features
+# Main Features
 ## 1. Weekly Progress Tracking
 - Visual display of weekly task completion progress
 - Progress bar showing completed vs. total tasks
