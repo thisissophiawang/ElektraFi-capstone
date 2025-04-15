@@ -176,7 +176,9 @@ yarn dev
 ## 🧱 Overview of Project Structure
 
 The ElektraFi project follows a modular full-stack architecture with a clearly separated frontend and backend. It is built using modern web development tools and frameworks such as React, GraphQL, and Node.js.
+
 Note: The code resides in ElekraFi's GitHub repository and is not available for external sharing
+
 ```
 feat/streak-gamification/
 ├── frontend/                     # React + Vite frontend
