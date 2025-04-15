@@ -2,43 +2,12 @@
 
 This project is part of our capstone research at Northeastern University Vancouver, focused on increasing user retention in financial wellness platforms by introducing a gamified task page. Built on the principles of Self-Determination Theory (SDT), ElektraFi uses features like streaks, badges, and progress tracking to enhance user motivation and foster consistent financial habits such as saving, budgeting, and debt reduction.
 
-
-**Table of Contents:**
-- [Team Members](#team-members)
-- [Meet the Team & Explore Our Project](#meet-the-team--explore-our-project)
-- [Tech Stack Overview](#tech-stack-overview)
-- [Main Features](#main-features)
-- [Frontend Development](#frontend-development)
-- [Backend Development](#backend-development)
-- [Setup Instructions](#setup-instructions)
-- [Demo Instructions](#demo-instructions)
-
-
 ---
 
 ## Team Members
 - Xinyi (Sophia) Wang
 - Haoyi Gao
-- Yijia Cao  
-
-
----
-
-## Meet the Team & Explore Our Project
-
-- [ElektraFi Project: Official Trailer](https://youtu.be/e54t63F5Mwk)  
-- [10-Minute Detailed Video](https://youtu.be/e54t63F5Mwk)  
-- [Our Research Paper (Overleaf)](https://www.overleaf.com/read/wyvwgxnnvqcr#c6339b)  
-- [Poster PDF](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/Poster.pdf)
-
-![Our Poster](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/poster%20.png)
-
----
-
-## Tech Stack Overview
-- **Frontend**: React (Vite), TypeScript, Tailwind CSS  
-- **Backend**: Node.js 22, GraphQL, MongoDB  
-- **Dev Tools**: Yarn, Apollo Client, GitHub Actions
+- Yijia Cao 
 
 ---
 
@@ -76,64 +45,11 @@ This project is part of our capstone research at Northeastern University Vancouv
 - Friendly error messages
 - Retry and fallback mechanisms
 
-![Workflow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png)
 
 ---
 
-## Frontend Development
 
-![Frontend Data Flow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/frontend%20data%20flow.png)
-
-### 1. First Commit - Foundation Building
-- React + TypeScript architecture
-- Navigation, task UI components
-
-### 2. Second Commit - Data Integration
-- GraphQL tasks and mutations
-- Progress + error handling UI
-
-### 3. Third Commit - Feature Enhancement
-- Badge system, streak tracker
-- Weekly progress, animation, notifications
-
-### Development Strategy
-- Progressive enhancement
-- State management, feedback, responsive UI
-
-### Key Achievements
-- Real-time tracking, error tolerance
-- Clean and scalable frontend logic
-
----
-
-## Backend Development
-
-![Backend Data Flow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/backend%20data%20flow.png)
-
-### Task System Data Flow
-
-1. **User Interaction Layer**
-   - Task completion initiated via UI
-2. **Frontend Processing**
-   - Prepares GraphQL mutation
-3. **API Communication Layer**
-   - Validates + handles request
-4. **Backend Logic**
-   - Verifies completion, updates streaks
-5. **Data Management Layer**
-   - Updates user task and badge data
-6. **State Synchronization**
-   - UI reflects success, shows feedback
-7. **Error Handling**
-   - Recovery strategies, rollback logic
-8. **Persistence**
-   - Saves to MongoDB
-9. **Feedback Loop**
-   - Updates frontend, shows achievements
-
----
-
-## Setup Instructions
+## 📦 Setup Instructions
 
 ### Prerequisites
 
@@ -144,8 +60,8 @@ This project is part of our capstone research at Northeastern University Vancouv
 
 ```bash
 # Clone the repository
-git clone https://github.com/thisissophiawang/Sp25_Elektrafi.git
-cd Sp25_Elektrafi
+git clone https://github.com/reframegroup/frontend.git
+cd feat/streak-gamification
 
 # Install dependencies
 yarn install
@@ -172,7 +88,35 @@ yarn dev
 
 ---
 
-## Demo Instructions
+## Overview of project structure
+The ElektraFi project follows a modular full-stack architecture with a clearly separated frontend and backend. It is built using modern web development tools and frameworks such as React, GraphQL, and Node.js.
+
+
+Sp25_Elektrafi/
+├── frontend/                      # React + Vite frontend
+│   ├── src/components/               # Reusable UI components (TaskCard, Badge, StreakBar)
+│   ├── src/pages/                    # Page-level components (TaskPage, Dashboard)
+│   ├── src/context/                  # Global state (UserContext, TaskContext)
+│   ├── src/graphql/                  # GraphQL queries & mutations (tasks, users, rewards)
+│   └── src/assets/                   # Icons, badges, and UI resources
+│
+├── nest-backend/                      # Node.js backend with GraphQL
+│   ├── modules/
+│   │   ├── tasks/                # Task completion logic, streak tracking
+│   │   ├── rewards/             # Points and badge system logic
+│   │   ├── verification/        # Flinks API + fallback verification
+│   ├── graphql/                 # Schema definitions and resolvers
+│   └── utils/                   # Shared utilities and error handling
+│
+├── ops/                          # Environment and deployment configs
+│
+├── public/                       # Static assets
+│
+└── README.md                     # Project documentation
+
+---
+
+## 🎬 Demo Instructions
 
 1. Start both servers using `yarn develop` and `yarn dev`  
 2. Open [http://localhost:3000](http://localhost:3000)  
@@ -181,14 +125,3 @@ yarn dev
    - Weekly progress tracker  
    - Task card system with real-time feedback  
    - Badge collections and points dashboard
-
-
-
-
-
-
-
-
-
-
-
