@@ -14,8 +14,8 @@ This project is part of our capstone research at Northeastern University Vancouv
 - [GreenNudge Project: Official Trailer](https://youtu.be/TixBm-K1ZbA)
 - [10 Minutes Detailed Video](https://youtu.be/e54t63F5Mwk)
 - [Our Research Paper](https://www.overleaf.com/read/wyvwgxnnvqcr#c6339b)
-- [Get the PDF of Our Poster](https://github.com/green-nudge-northeastern/green-nudge-web-app/blob/main/GreenNudge%20YvonneCapstonePoser.pdf)
- ![Our Poster](https://github.com/green-nudge-northeastern/green-nudge-web-app/blob/main/Poster.jpg)
+- [Get the PDF of Our Poster](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/Poster.pdf)
+ ![Our Poster](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/Poster.pdf)
 
  
 ![Workflow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png)
