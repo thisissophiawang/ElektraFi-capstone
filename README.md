@@ -1,6 +1,7 @@
 ## ElektraFi: Gamified Financial Wellness Platform
 
-This project is part of our capstone research at Northeastern University Vancouver, focused on redesigning financial wellness engagement through Self-Determination Theory (SDT) and gamification principles. ElektraFi is a web-based platform aimed at increasing user motivation to build consistent financial habits, such as saving, budgeting, and debt reduction.
+This project is part of our capstone research at Northeastern University Vancouver, focused on increasing user retention in financial wellness platforms by introducing a gamified task page. Built on the principles of Self-Determination Theory (SDT), ElektraFi uses features like streaks, badges, and progress tracking to enhance user motivation and foster consistent financial habits such as saving, budgeting, and debt reduction.
+
 
 **Table of Contents:**
 - [Team Members](#team-members)
