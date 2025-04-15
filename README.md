@@ -243,6 +243,15 @@ This starts the React app at http://localhost:3000.
 
 Navigate to the local link to log in using a test account and explore ElektraFi’s gamified features.
 
+## Demo Instructions
+1.Start both servers using yarn develop and yarn dev
+2.Open http://localhost:3000
+3.Log in using the demo test account
+4.Explore:
+Weekly progress tracker
+Task card system with real-time feedback
+Badge collections and points dashboard
+
 
 
 
