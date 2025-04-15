@@ -166,17 +166,21 @@ yarn dev
 
 # The React app will run at: http://localhost:3000
 # Log in with the test account and explore the gamified features
+```
+
+---
+
+## 🎬 Demo Instructions
+
+1. Start both servers using `yarn develop` and `yarn dev`  
+2. Open [http://localhost:3000](http://localhost:3000)  
+3. Log in using the demo test account  
+4. Explore:
+   - Weekly progress tracker  
+   - Task card system with real-time feedback  
+   - Badge collections and points dashboard
 
 
-
-## Demo Instructions
-1.Start both servers using yarn develop and yarn dev
-2.Open http://localhost:3000
-3.Log in using the demo test account
-4.Explore:
-Weekly progress tracker
-Task card system with real-time feedback
-Badge collections and points dashboard
 
 
 
