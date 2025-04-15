@@ -15,14 +15,12 @@ This project is part of our capstone research at Northeastern University Vancouv
 - [10 Minutes Detailed Video](https://youtu.be/e54t63F5Mwk)
 - [Our Research Paper](https://www.overleaf.com/read/wyvwgxnnvqcr#c6339b)
 - [Get the PDF of Our Poster](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/Poster.pdf)
- ![Our Poster](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/Poster.pdf)
+ ![Our Poster](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/poster%20.png)
 
  
-![Workflow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png)
+
 
 ## Main Features
-# Main Features
-
 ## 1. Weekly Progress Tracking
 - Visual display of weekly task completion progress
 - Progress bar showing completed vs. total tasks
@@ -75,7 +73,7 @@ This project is part of our capstone research at Northeastern University Vancouv
 - Recovery mechanisms for failed operations
 
 
-
+![Workflow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png)
 
 ## Development Summary (Frontend)
 
