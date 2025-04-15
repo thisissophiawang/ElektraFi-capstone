@@ -194,8 +194,9 @@ This project is part of our capstone research at Northeastern University Vancouv
 - Progress updates displayed
 - New achievements highlighted
 - Next steps suggested
+  
 
-## 📦 Setup Instructions
+# 📦 Setup Instructions
 
 ### Prerequisites
 
@@ -210,10 +211,12 @@ Make sure you have the following installed:
    ```sh
    git clone https://github.com/thisissophiawang/Sp25_Elektrafi.git
    cd Sp25_Elektrafi
+   ```sh
 
  2. Install dependencies:
    ```sh
    yarn install
+   ```sh
 
 3. Set up environment variables:
 For macOS/Linux:
