@@ -4,10 +4,10 @@ This project is part of our capstone research at Northeastern University Vancouv
 
 **Table of Contents:**
 - [Meet the Team \& Explore Our Project](#meet-the-team--explore-our-project)
-- [Concepts and Resources](#Team_Members)
-- [Main Features](#Main_Features)
-- [Frontend Development Summary](#Frontend_Development) 
-- [Backend Development Summary](#Backend_Development) 
+- [Concepts and Resources](#Team-Members)
+- [Main Features](#Main-Features)
+- [Frontend Development Summary](#Frontend-Development) 
+- [Backend Development Summary](#Backend-Development) 
 - [Notes](#notes)
 
 # Team Members
