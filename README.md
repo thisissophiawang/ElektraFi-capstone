@@ -79,6 +79,8 @@ This project is part of our capstone research at Northeastern University Vancouv
 - Recovery mechanisms for failed operations
 
 
+
+
 ![Workflow](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png)
 
 # Frontend Development 
@@ -125,6 +127,8 @@ This project is part of our capstone research at Northeastern University Vancouv
 - Comprehensive error handling
 - Responsive design implementation
 - Efficient state management
+
+
 
 
 # Backend Development 
