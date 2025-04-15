@@ -4,7 +4,7 @@ This project is part of our capstone research at Northeastern University Vancouv
 
 **Table of Contents:**
 - [Meet the Team \& Explore Our Project](#meet-the-team--explore-our-project)
-- [Concepts and Resources](#Team-Members)
+- [Tech Stack Overview](#Tech-Stack-Overview)
 - [Main Features](#Main-Features)
 - [Frontend Development Summary](#Frontend-Development) 
 - [Backend Development Summary](#Backend-Development) 
@@ -24,6 +24,11 @@ This project is part of our capstone research at Northeastern University Vancouv
 - [Get the PDF of Our Poster](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/Poster.pdf)
  ![Our Poster](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/poster%20.png)
 
+
+## ⚙️ Tech Stack Overview
+- **Frontend**: React (Vite), TypeScript, Tailwind CSS
+- **Backend**: Node.js 22, GraphQL, MongoDB
+- **Dev Tools**: Yarn, Apollo Client, GitHub Actions
  
 
 # Main Features
