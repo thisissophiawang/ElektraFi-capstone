@@ -87,7 +87,7 @@ Note: The code resides in ElekraFi's GitHub repository and is not available for 
 ## Frontend Development
 
 
-<img src="https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/frontend%20data%20flow.png"  alt="Frontend Data Flow" width="60%">
+<img src="https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/frontend%20data%20flow.png"  alt="Frontend Data Flow" width="50%">
 
 
 ### 1. First Commit - Foundation Building
@@ -115,7 +115,7 @@ Note: The code resides in ElekraFi's GitHub repository and is not available for 
 ## Backend Development
 
 
-<img src="https://github.com/thisissophiawang/ElektraFi-capstone/blob/main/backend%20flow.png" alt="Backend Data Flow" width="60%">
+<img src="https://github.com/thisissophiawang/ElektraFi-capstone/blob/main/backend%20flow.png" alt="Backend Data Flow" width="50%">
 
 ### Task System Data Flow
 
