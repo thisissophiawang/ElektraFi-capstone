@@ -79,7 +79,7 @@ Note: The code resides in ElekraFi's GitHub repository and is not available for 
 - Retry and fallback mechanisms
 
 
-<img src="https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/workflow.png" alt="Workflow" width="60%">
+<img src="https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/data flow.png" alt="Workflow" width="60%">
 
 
 ---
