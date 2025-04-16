@@ -2,6 +2,8 @@
 
 This project is part of our capstone research at Northeastern University Vancouver, focused on increasing user retention in financial wellness platforms by introducing a gamified task page. Built on the principles of Self-Determination Theory (SDT), ElektraFi uses features like streaks, badges, and progress tracking to enhance user motivation and foster consistent financial habits such as saving, budgeting, and debt reduction.
 
+Note: The code resides in ElekraFi's GitHub repository and is not available for external sharing
+
 
 **Table of Contents:**
 - [Team Members](#team-members)
@@ -26,7 +28,7 @@ This project is part of our capstone research at Northeastern University Vancouv
 
 ## Meet the Team & Explore Our Project
 
-- [ElektraFi Project: Official Trailer](https://youtu.be/e54t63F5Mwk)  
+- [ElektraFi Panel Review 2: Project Showcase](https://youtu.be/e54t63F5Mwk)  
 - [10-Minute Detailed Video](https://youtu.be/e54t63F5Mwk)  
 - [Our Research Paper (Overleaf)](https://www.overleaf.com/read/wyvwgxnnvqcr#c6339b)  
 - [Poster PDF](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/Poster.pdf)
