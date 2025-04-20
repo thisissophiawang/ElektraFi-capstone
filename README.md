@@ -84,6 +84,7 @@ Note: The code resides in ElekraFi's GitHub repository and is not available for 
 
 ---
 
+
 ## Frontend Development
 
 
@@ -209,6 +210,194 @@ feat/streak-gamification/
 ```
 
 ---
+## Architecture
+
+### Frontend Components
+1. **TaskStreakContext** (`frontend/src/contexts/taskStreakContext.tsx`)
+   - Manages streak state and task completion logic
+   - Handles automatic login task completion
+   - Provides streak information to components
+
+2. **TasksPage** (`frontend/src/pages/Tasks/TasksPage.tsx`)
+   - Displays available tasks and their status
+   - Shows streak information and rewards
+   - Handles task completion UI
+
+### Backend Components
+1. **TaskStreakService** (`nest-backend/src/task-streak/task-streak.service.ts`)
+   - Core business logic for streak management
+   - Handles task completion and streak calculations
+   - Manages points and level progression
+
+2. **Database Schema**
+   - `task_streaks` table: Stores user streaks and progress
+   - `task_completions` table: Records individual task completions
+   - `user_badges` table: Tracks earned rewards
+
+## Task Types
+The system supports several task types:
+- `LOGIN`: Weekly login task (50 points)
+- `BUDGET_CHECKIN`: Weekly budget review (300 points)
+- `EXPENSE_TRACKING`: Weekly expense tracking (500 points)
+- Additional financial tasks (SAVINGS_TRANSFER, EMERGENCY_FUND, etc.)
+
+## Streak Mechanics
+
+### Frequency Types
+- `DAILY`: Tasks reset at midnight
+- `WEEKLY`: Tasks reset at midnight on Monday
+- `MONTHLY`: Tasks reset at midnight on the first of the month
+
+### Streak Rewards
+Each task has three reward levels:
+1. **Bronze**: Complete 1 week
+2. **Silver**: Complete 8 weeks consecutively
+3. **Gold**: Complete 12 weeks consecutively
+
+## Points System
+
+### Milestone Progression
+Points are awarded based on task completion and streak length:
+- Base points per task completion
+- Streak multiplier increases points earned
+- Level progression based on total points
+
+### Level Thresholds
+- Level 1: 0-999 points
+- Level 2: 1000-2499 points
+- Level 3: 2500-4999 points
+- Level 4: 5000-9999 points
+- Level 5: 10000-19999 points
+- Level 6: 20000+ points
+
+## API Endpoints
+
+### GraphQL Queries
+```graphql
+query GetUserStreaks($userId: String!) {
+  getUserStreaks(userId: $userId) {
+    id
+    userId
+    taskType
+    currentStreak
+    longestStreak
+    lastCompletionDate
+    frequency
+    updatedAt
+    totalPoints
+    currentPointThreshold
+    nextPointThreshold
+    level
+  }
+}
+
+query GetUserPointsInfo($userId: String!) {
+  getUserPointsInfo(userId: $userId) {
+    totalPoints
+    currentPointThreshold
+    nextPointThreshold
+    level
+  }
+}
+```
+
+### GraphQL Mutations
+```graphql
+mutation CompleteTask($userId: String!, $taskType: TaskType!) {
+  completeTask(userId: $userId, taskType: $taskType) {
+    id
+    userId
+    taskType
+    currentStreak
+    longestStreak
+    lastCompletionDate
+    frequency
+    updatedAt
+    totalPoints
+    currentPointThreshold
+    nextPointThreshold
+    level
+  }
+}
+```
+
+## Testing
+
+### Frontend Tests
+Run task streak context tests:
+```bash
+cd frontend
+vitest taskStreakContext.spec.tsx
+```
+
+### Backend Tests
+Run task streak service tests:
+```bash
+cd backend
+npm run test:unit task-streak.service.spec.ts
+```
+
+## Development Notes
+
+### Key Files
+- `frontend/src/contexts/taskStreakContext.tsx`: Frontend streak management
+- `frontend/src/pages/Tasks/TasksPage.tsx`: Task display and interaction
+- `nest-backend/src/task-streak/task-streak.service.ts`: Backend streak logic
+- `nest-backend/src/task-streak/config/available-tasks.config.ts`: Task configuration
+
+### Important Considerations
+1. Task availability is checked based on:
+   - Last completion date
+   - Task frequency
+   - Reset period and time
+2. Points are calculated as: `basePoints * currentStreak`
+3. Level progression is based on total points reaching thresholds
+4. Streak rewards are awarded automatically when conditions are met
+
+## Maintenance
+
+### Database Migrations
+- `1733500000000-CreateTaskStreakTables.ts`: Initial table creation
+- `1733500000001-add-points-to-task-streak.ts`: Added points and level tracking
+
+### Configuration
+Task settings can be modified in `available-tasks.config.ts`:
+- Points per task
+- Required streak lengths for rewards
+- Task frequency and reset times
+- Task categories and descriptions
+
+## Task Configuration
+
+### Task Levels and Streak Requirements
+Each task has two types of levels:
+
+1. **Required Level** (`requiredLevel` in TaskConfig)
+   - This is the minimum user level needed to access the task
+   - Currently, all tasks have `requiredLevel: 1`, meaning they're available from the start
+   - This is separate from the streak reward levels
+
+2. **Streak Reward Levels** (`streakRewards` in TaskConfig)
+   - These are achievement levels based on consecutive completions
+   - Each task has three reward levels:
+     - Level 1 (Bronze): 1 week of consecutive completion
+     - Level 2 (Silver): 8 weeks of consecutive completion
+     - Level 3 (Gold): 12 weeks of consecutive completion
+   - The level number in `streakRewards` corresponds to the achievement tier, not the required weeks
+
+Example from the Login task:
+```typescript
+streakRewards: [
+  { level: 1, medal: '🥉', name: 'Bronze', description: 'Complete 1 week of login' },
+  { level: 2, medal: '🥈', name: 'Silver', description: 'Complete 8 weeks of login consecutively' },
+  { level: 3, medal: '🥇', name: 'Gold', description: 'Complete 12 weeks of login consecutively' }
+]
+```
+
+Note: The `level` in `streakRewards` is just an identifier for the achievement tier (1=Bronze, 2=Silver, 3=Gold) and doesn't need to match the number of weeks required. The actual streak requirements are defined in the descriptions. 
+
+---
+
 ## Demo Instructions
 
 1. Start both servers using `yarn develop` and `yarn dev`  
