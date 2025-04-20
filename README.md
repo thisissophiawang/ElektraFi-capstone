@@ -29,7 +29,7 @@ Note: The code resides in ElekraFi's GitHub repository and is not available for 
 
 ## Meet the Team & Explore Our Project
 
-- [ElektraFi: Project Showcase video (1-mins)](https://youtu.be/e54t63F5Mwk)  
+- [ElektraFi: Project Showcase video (1-mins)](https://youtu.be/Ai-9qI7QkII）  
 - [10-Minute Detailed Video](https://youtu.be/e54t63F5Mwk)  
 - [Our Research Paper (Overleaf)](https://www.overleaf.com/read/wyvwgxnnvqcr#c6339b)  
 - [Poster PDF](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/Poster.pdf)
