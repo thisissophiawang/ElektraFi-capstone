@@ -183,7 +183,7 @@ yarn dev
 
 ## 🧱 Overview of Project Structure
 
-The ElektraFi project follows a modular full-stack architecture with a clearly separated frontend and backend. It is built using modern web development tools and frameworks such as React, GraphQL, and Node.js.
+The Task Streak System is a gamification feature that encourages users to maintain consistent financial habits through task completion and streak tracking. The system tracks user progress, awards points, and provides rewards for maintaining streaks.
 
 Note: The code resides in ElekraFi's GitHub repository and is not available for external sharing
 
