@@ -14,6 +14,7 @@ Note: The code resides in ElekraFi's GitHub repository and is not available for 
 - [Backend Development](#backend-development)
 - [Setup Instructions](#setup-instructions)
 - [Demo Instructions](#demo-instructions)
+- [Future Improvements](https://github.com/thisissophiawang/ElektraFi-capstone/blob/main/Future_Improvements.pdf)
 
 
 ---
