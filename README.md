@@ -188,24 +188,34 @@ The Task Streak System is a gamification feature that encourages users to mainta
 Note: The code resides in ElekraFi's GitHub repository and is not available for external sharing
 
 ```
-feat/streak-gamification/
+feat/sdt-gamification/
 ├── frontend/                     # React + Vite frontend
-│   ├── src/components/          # Reusable UI components (TaskCard, Badge, StreakBar)
-│   ├── src/pages/               # Page-level views (TaskPage, Dashboard)
-│   ├── src/context/             # Global state (UserContext, TaskContext)
-│   ├── src/graphql/             # GraphQL queries & mutations (tasks, users, rewards)
-│   └── src/assets/              # Icons, badge illustrations, and UI resources
+│   ├── src/components/          # UI components mapped to SDT needs
+│   │   ├── autonomy/            # User-directed components (TaskSelection, ChallengeCustomizer)
+│   │   ├── competence/          # Feedback components (ProgressBar, StreakCounter, BadgeDisplay)
+│   │   └── relatedness/         # Social components (LeaderboardCard, AchievementSharing)
+│   ├── src/contexts/            # SDT-driven state management
+│   │   ├── TaskStreakContext.tsx # Manages streak state and psychological feedback
+│   │   └── PsychologicalNeedsContext.tsx # Global SDT state provider
+│   ├── src/pages/               # User-facing views
+│   │   └── Tasks/              # TasksPage with SDT-aligned gamification
+│   ├── src/graphql/             # API communication
+│   └── src/assets/              # Visual reward elements
 │
 ├── nest-backend/                # Node.js backend with GraphQL
-│   ├── modules/
-│   │   ├── tasks/               # Task completion logic, streak tracking
-│   │   ├── rewards/            # Points and badge system logic
-│   │   ├── verification/       # Flinks API + fallback verification
-│   ├── graphql/                # Schema definitions and resolvers
-│   └── utils/                  # Shared utilities and error handling
+│   ├── src/                     # Source directory
+│   │   ├── task-streak/         # Core streak functionality
+│   │   │   ├── task-streak.service.ts # Streak calculation and points logic
+│   │   │   └── config/          # Task configuration
+│   │   │       └── available-tasks.config.ts # SDT-mapped task definitions
+│   │   ├── motivation/          # SDT engine for aligning features with needs
+│   │   ├── verification/        # Data validation services
+│   │   └── rewards/             # Points allocation and badge achievement
+│   ├── schema.gql               # GraphQL schema definition
+│   └── migrations/              # Database migration scripts
 │
-├── ops/                         # Environment and deployment configs
-├── public/                      # Static assets (favicon, logos)
+├── docs/                        # Documentation
+│   └── architecture.md          # SDT-based architecture overview
 └── README.md                    # Project documentation
 ```
 
