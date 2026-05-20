@@ -20,7 +20,7 @@ Note: The code resides in ElekraFi's GitHub repository and is not available for 
 ---
 
 ## Team Members
-- Sophia Wang
+- Xinyi Wang/Sophia
 - Haoyi Gao
 - Yijia Cao  
 
