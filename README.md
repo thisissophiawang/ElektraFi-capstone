@@ -39,6 +39,11 @@ Note: The code resides in ElekraFi's GitHub repository and is not available for 
 We designed and implemented the Challenge Page as ElektraFi’s core gamification feature, helping users build better financial habits through goal tracking, streak systems, challenge progression, and engagement-driven interactions.
 
 ![Gamification Feature](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/gamification.png)
+
+### Cashflow & Financial Planning Dashboard
+Built an interactive cashflow dashboard that helps users visualize monthly expenses, available income, and budgeting scenarios through intuitive financial analytics and AI-assisted planning experiences.
+
+![Cashflow Dashboard](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/cashflow-dashboard.png)
 ---
 
 ## Tech Stack Overview
