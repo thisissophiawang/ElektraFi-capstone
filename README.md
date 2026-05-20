@@ -35,7 +35,10 @@ Note: The code resides in ElekraFi's GitHub repository and is not available for 
 - [Poster PDF](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/Poster.pdf)
 
 ![Our Poster](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/poster%20.png)
+### Gamified Challenge Page
+We designed and implemented the Challenge Page as ElektraFi’s core gamification feature, helping users build better financial habits through goal tracking, streak systems, challenge progression, and engagement-driven interactions.
 
+![Gamification Feature](https://github.com/thisissophiawang/Sp25_Elektrafi/blob/main/gamification.png)
 ---
 
 ## Tech Stack Overview
